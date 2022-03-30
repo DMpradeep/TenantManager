@@ -88,7 +88,7 @@ export const TenantList = (): JSX.Element => {
 
   const tenants = data?.getTenants as Tenant[];
   const validTenants = tenants?.filter((tenant) =>
-    tenant.id.match(/^[t0-9]+$/i)
+    tenant.id.match(/^[t0-9]+$/i) // filter all tenants which has valid ids (id starting from t and has a number. EG. t123)
   );
 
   return (
