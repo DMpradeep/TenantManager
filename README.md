@@ -14,6 +14,6 @@ The page will reload if you make edits.
 Launches the test runner in the interactive watch mode. 
 
 More details
-* Material UI - for theme
-* GraphQL - Wrapped around rest endpoint (using ApolloClient)
+* Material UI
+* GraphQL
 * Typescript
