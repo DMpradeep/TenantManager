@@ -1,6 +1,5 @@
 import {
   Button,
-  FormLabel,
   Switch,
   TextareaAutosize,
   TextField,
@@ -20,6 +19,7 @@ export const TenantDetails = () => {
   
   return (
     <>
+      <h2 style={{ textAlign: "left", marginLeft: "20px" }}>Tenant Details</h2>
       <TextField
         label="Name"
         value={details.name}
